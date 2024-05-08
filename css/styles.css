@@ -1,0 +1,112 @@
+/* Samantha Abraham
+File Name: styles.css
+/*
+
+/* CSS Reset */
+body, header, nav, main, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.tab-desk, .mobile-nav {
+  font-size: 2em;
+  color: #FFFCF2;
+  background-color: #252422;
+  display: block;
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFFCF2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  text-align: center;
+  font-size: 1.5em;
+  display: block;
+  font-family: Raleway;
+}
+
+main p {
+  font-size: 1.25em;
+  display: block;
+}
+
+header {
+  background-color: #CCC5B9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+nav {
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto;
+  display: block;
+}
+
+nav a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.cisco {
+  display: block;
+  height: 25%;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab-desk {
+  display: none;
+}
+
+/* Media Query for Desktop and Tablet */
+@media screen and (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .tab-desk {
+    display: block;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
+  }
+}
